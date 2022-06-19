@@ -7,9 +7,11 @@ TODO:
 - Can improve testing. focussed on integration happy case and a service unit test
 
 How to run?
+- mvn clean install
 - mvn spring-boot:run
 
 OR
+- mvn clean install
 - java -jar ./target/hello-neighbour-0.0.1-SNAPSHOT.jar (relative to application.properties file)
 
 Endpoint 
