@@ -10,6 +10,7 @@ TODO:
 
 How to run?
 - mvn spring-boot:run
+OR
 - java -jar ./target/hello-neighbour-0.0.1-SNAPSHOT.jar (relative to application.properties file)
 
 Endpoint 
