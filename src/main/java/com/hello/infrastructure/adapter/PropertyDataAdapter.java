@@ -39,7 +39,7 @@ public class PropertyDataAdapter implements IPropertyDataAdapter{
     private static final Logger LOGGER =
             LoggerFactory.getLogger(PropertyDataAdapter.class);
 
-    @Retryable(value = ThrottledException.class, maxAttempts = 3, backoff = @Backoff(delay = 2000))
+    @Retryable(value = ThrottledException.class, maxAttempts = 3, backoff = @Backoff(delay = 2500))
     public DemandRentDto getDemandRentData(String postCode) throws ServiceException {
         try {
             Map<String, String> uriVariables = buildUriVariables(postCode);
@@ -50,7 +50,7 @@ public class PropertyDataAdapter implements IPropertyDataAdapter{
         }
     }
 
-    @Retryable(value = ThrottledException.class, maxAttempts = 3, backoff = @Backoff(delay = 2000))
+    @Retryable(value = ThrottledException.class, maxAttempts = 3, backoff = @Backoff(delay = 2500))
     public GrowthDto getGrowthData(String postCode) throws ServiceException {
         try {
             Map<String, String> uriVariables = buildUriVariables(postCode);
