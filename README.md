@@ -1,6 +1,8 @@
 ###########################
 
-### application.properties needs to be updated to use the API Key
+### 
+application.properties needs to be updated to use the API Key
+- propertydata.apikey=<<API_KEY>>
 
 TODO:
 - Cache time is 60 seconds for testing. Can look at daily schedule, or monthly
