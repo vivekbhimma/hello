@@ -1,5 +1,3 @@
-###########################
-
 ### 
 application.properties needs to be updated to use the API Key
 - propertydata.apikey=<<API_KEY>>
